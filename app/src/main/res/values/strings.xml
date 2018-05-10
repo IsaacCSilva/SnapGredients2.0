@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SnapGredients</string>
+    <string name="title_home">Preferences</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="preferences">Preferences</string>
+    <string name="search">Search</string>
+    <string name="favorites">Favorites</string>
+    <string name="history">History</string>
+    <string name="barcode">Barcode</string>
+    <string-array name="query_suggestions">
+        <item>SKIPPY, CREAMY NATURAL PEANUT BUTTER SPREAD WITH DARK CHOCOLATE </item>
+        <item>SKIPPY, SUPER CHUNK, EXTRA CRUNCHY PEANUT BUTTER </item>
+        <item>SKIPPY, CREAMY PEANUT BUTTER </item>
+        <item>SKIPPY, PEANUT BUTTER, ROASTED HONEY NUT, CREAMY </item>
+        <item>SKIPPY, PEANUT BUTTER SPREAD WITH HONEY</item>
+        <item>SKIPPY, PEANUT BUTTER  </item>
+    </string-array>
+
+</resources>
