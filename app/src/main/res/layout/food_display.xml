@@ -9,29 +9,12 @@
 
     <TextView
         android:id="@+id/item2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="25dp"
-        android:text="SKIPPY, PEANUT BUTTER"
+        android:text=" BARCODE HERE"
         android:textAppearance="@style/TextAppearance.AppCompat.Title"
         android:textColor="#F122" />
 
-    <ListView
-        android:id="@+id/list2"
-        android:layout_below="@+id/item2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true">
-    </ListView>
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/item2"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="18dp"
-        android:text="Favorite" />
 </RelativeLayout>

@@ -13,6 +13,11 @@ import android.widget.TextView;
 
 
 public class HistoryFrag extends Fragment {
+    /* DOCUMENTATION
+* Here we have a fragment outline for the history tab of the menu
+* We an onCreateView method that is meant to inflate the layout of the menu page and we
+* return view
+* */
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
@@ -27,10 +32,19 @@ public class HistoryFrag extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState ){
         View view = inflater.inflate(R.layout.histrory_fragment,container,false);
+        /*
+        * This is a sample of what the list of History would look like
+        * when added to complete the list for the user
+        * A string is created then call the layout from the XML
+        * Use an adapterArray that is a string to place it in
+        * get the activity then sort it in a list thanks to android's 'simple_list_item_1'
+        * Then we set the adapter
+        * */
          final String[] web = {
-                 "SKIPPY, PEANUT BUTTER"
+                 "SKIPPY, PEANUT BUTTER",
+                 "DORITOS"
         };
-        list = (ListView) view.findViewById(R.id.list);
+      ListView  list = (ListView) view.findViewById(R.id.list);
         ArrayAdapter<String> listva = new ArrayAdapter<String>(
                 getActivity(),
                 android.R.layout.simple_list_item_1,
@@ -39,8 +53,4 @@ public class HistoryFrag extends Fragment {
         list.setAdapter(listva);
         return view;
     }
-   // public void setText(String item){
-     //   TextView view = (TextView) getView().findViewById(R.id.captain);
-       // view.setText(item);
-    //}
 }
